@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 import '../styles/NavBar.css';
+import logo from '../logo.jpg'
 
 class NavBar extends Component {
 render() {
     return (
       <div>
         <header>
-        <div className="title"><NavLink to="/">ArtWorker</NavLink></div>
+        <img src={logo} className="page-logo" alt="art worker" />
         <h2>Introducing artists into your workspace</h2>
           <nav>
           <div className="links">

@@ -22,3 +22,9 @@
 .title {
   font-size: 6em;
 }
+
+
+.page-logo {
+  max-width: 70%;
+  height: auto;
+}
