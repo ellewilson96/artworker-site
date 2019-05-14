@@ -4,17 +4,14 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  max-width: 80%;
 }
 
 
 .links ul li {
   list-style: none;
-  margin-right: 10%;
   transition: 0.4s;
-}
-
-a {
+  margin-right: 40px;
 }
 
 

@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 import NavBar from './components/NavBar';
+import Home from './components/Home';
 import What from './components/What';
 import Why from './components/Why';
 import How from './components/How';
@@ -20,7 +21,8 @@ class App extends Component {
         <NavBar />
       <div className="container">
         <Switch>
-          <Route exact path="/what" component={What} />
+          <Route exact path="/" component={Home} />
+          <Route path="/what" component={What} />
           <Route path="/why" component={Why} />
           <Route path="/how" component={How} />
           <Route path="/artists" component={Artists} />
