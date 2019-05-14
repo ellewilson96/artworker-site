@@ -1,0 +1,27 @@
+
+
+.links ul {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+
+.links ul li {
+  list-style: none;
+  margin-right: 10%;
+  transition: 0.4s;
+}
+
+a {
+}
+
+
+.links ul li:hover {
+  transform: scale(1.25);
+}
+
+.title {
+  font-size: 6em;
+}

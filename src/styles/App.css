@@ -1,0 +1,45 @@
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 1em;
+}
+
+h2:hover {
+  cursor: default;
+}
+
+a {
+  text-decoration: none;
+  color: #0a244f;
+}
+
+h1 a:hover {
+  cursor: default;
+}
+
+.footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: right;
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.content {
+  max-width: 60%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

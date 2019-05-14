@@ -5,11 +5,11 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import NavBar from './components/NavBar';
 import What from './components/What';
 import Why from './components/Why';
-import Who from './components/Who';
+import How from './components/How';
 import Artists from './components/Artists';
 import Contact from './components/Contact';
 
-import './App.css';
+import './styles/App.css';
 
 class App extends Component {
   render() {
@@ -22,13 +22,13 @@ class App extends Component {
         <Switch>
           <Route exact path="/what" component={What} />
           <Route path="/why" component={Why} />
-          <Route path="/who" component={Who} />
+          <Route path="/how" component={How} />
           <Route path="/artists" component={Artists} />
           <Route path="/contact" component={Contact} />
         </Switch>
       </div>
       <footer>
-        <div>
+        <div className="footer">
           built by elle wilson
         </div>
       </footer>
