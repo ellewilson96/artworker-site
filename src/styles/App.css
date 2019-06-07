@@ -50,18 +50,39 @@ h1 a:hover {
   justify-content: center;
 }
 
-.background-image {
-  object-fit: contain;
-  opacity: 0.5;
-  position: absolute;
-  z-index: -1;
-}
-
 /* Artists */
 
 .artist-container {
-
 }
+
+.artist-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Artist Navigation */
+
+
+.artist-links ul {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 80%;
+  font-size: 1.2em;
+}
+
+.artist-links ul li {
+  list-style: none;
+  transition: 0.4s;
+  margin-right: 30px;
+}
+
+.artist-links ul li:hover {
+  transform: scale(1.25);
+}
+
+
+
 
 /* Benefits */
 
