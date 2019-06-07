@@ -39,11 +39,9 @@ h1 a:hover {
 }
 
 .content {
-  margin: 5%;
-  padding: 5%;
-  max-width: 100%;
+  padding-top: 5px;
+  max-width: 90%;
   background-color: rgb(255, 255, 255, 0.7);
-  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -72,10 +70,15 @@ h1 a:hover {
 }
 
 .artist-links ul li {
+  display: flex;
   list-style: none;
   transition: 0.4s;
-  margin-right: 30px;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 20px;
 }
+
+
 
 .artist-links ul li:hover {
   transform: scale(1.25);
