@@ -1,9 +1,7 @@
-h1 {
-  font-size: 3em;
-}
+/* overall application style */
 
-h2 {
-  font-size: 1em;
+h1 {
+  font-size: 1.75em;
 }
 
 h2:hover {
@@ -19,17 +17,32 @@ h1 a:hover {
   cursor: default;
 }
 
+
 .footer {
   position: fixed;
-  right: 0;
+  right: 5px;
   bottom: 0;
   width: 100%;
   text-align: right;
   color: rgba(0, 0, 0, 0.2);
 }
 
+.page-container {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .content {
-  max-width: 60%;
+  margin: 5%;
+  padding: 5%;
+  max-width: 100%;
+  background-color: rgb(255, 255, 255, 0.7);
   height: auto;
   display: flex;
   flex-direction: column;
@@ -37,9 +50,38 @@ h1 a:hover {
   justify-content: center;
 }
 
-
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.background-image {
+  object-fit: contain;
+  opacity: 0.5;
+  position: absolute;
+  z-index: -1;
 }
+
+/* Artists */
+
+.artist-container {
+
+}
+
+/* Benefits */
+
+.benefits-container {
+
+}
+
+.benefit-content {
+
+}
+/* Contact */
+
+.contact-container {
+
+}
+
+/* How It Works */
+
+.how-container {
+
+}
+
+/* Media Queries */

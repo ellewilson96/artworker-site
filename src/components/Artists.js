@@ -5,8 +5,6 @@ class Artists extends Component {
     }
     render() {
         return (
-          <div className="content">
-          <h1>Our Artists</h1>
           <div className="artist-container">
             <div className="artist-name">
             Heidi Hankaneimi
@@ -24,7 +22,6 @@ class Artists extends Component {
             <p>Commissioners of her artwork include Chanel and Sir
             Elton John.</p>
             </div>
-          </div>
           </div>
         )
     }

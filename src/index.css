@@ -18,7 +18,8 @@ html {
 body {
  background-color: #FFFFFF;
  font-family: 'Bebas', sans-serif;
- letter-spacing: 0.25em;
+ margin: 0;
+ padding: 0;
 }
 
 title {

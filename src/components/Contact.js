@@ -1,6 +1,4 @@
 import React, { Component } from 'react'
-import Employees from './Employees';
-import Employers from './Employers';
 import '../styles/Contact.css';
 
 
@@ -10,12 +8,8 @@ class Contact extends Component {
     render() {
         return (
           <div className="content">
-            <div>
-              <Employees />
+            <div className="contact-container">
             </div>
-            <div>
-              <Employers />
-              </div>
           </div>
         )
     }

@@ -8,6 +8,7 @@ import How from './components/How';
 import Benefits from './components/Benefits';
 import ArtistContainer from './containers/ArtistContainer';
 import Contact from './components/Contact';
+import background from './styles/img/art office.jpg';
 
 import './styles/App.css';
 
@@ -16,9 +17,10 @@ class App extends Component {
     const App = () => (
       <div>
         <BrowserRouter>
-      <div>
+      <div className="page-container">
         <NavBar />
       <div className="container">
+      <img src={background} className="background-image" alt="background" />
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/how" component={How} />
