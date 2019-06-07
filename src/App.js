@@ -4,10 +4,9 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 import NavBar from './components/NavBar';
 import Home from './components/Home';
-import What from './components/What';
-import Why from './components/Why';
 import How from './components/How';
-import Artists from './components/Artists';
+import Benefits from './components/Benefits';
+import ArtistContainer from './containers/ArtistContainer';
 import Contact from './components/Contact';
 
 import './styles/App.css';
@@ -22,10 +21,9 @@ class App extends Component {
       <div className="container">
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route path="/what" component={What} />
-          <Route path="/why" component={Why} />
           <Route path="/how" component={How} />
-          <Route path="/artists" component={Artists} />
+          <Route path="/benefits" component={Benefits} />
+          <Route path="/artists" component={ArtistContainer} />
           <Route path="/contact" component={Contact} />
         </Switch>
       </div>

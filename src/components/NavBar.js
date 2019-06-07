@@ -13,9 +13,8 @@ render() {
           <nav>
           <div className="links">
              <ul>
-               <li><NavLink to="/what">What we do</NavLink></li>
-               <li><NavLink to="/why">Why we do it</NavLink></li>
                <li><NavLink to="/how">How it Works</NavLink></li>
+               <li><NavLink to="/benefits">The Benefits</NavLink></li>
                <li><NavLink to="/artists">Our Artists</NavLink></li>
                <li><NavLink to="/contact">Get involved</NavLink></li>
              </ul>
