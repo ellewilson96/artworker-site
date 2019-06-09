@@ -18,6 +18,7 @@ class ArtistContainer extends Component {
           <div className="content">
                   <BrowserRouter>
                 <div className="artist-container">
+                <h2>A selection from our current artist roster</h2>
                 <ArtistNav />
                   <Switch>
                     <Route path="/brandon" component={Brandon} />

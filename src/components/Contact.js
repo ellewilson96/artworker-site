@@ -9,6 +9,10 @@ class Contact extends Component {
         return (
           <div className="content">
             <div className="contact-container">
+            <h2>Inquiries</h2>
+
+            <p>212-729-7077</p>
+            <p>artworkeremail@gmail.com</p>
             </div>
           </div>
         )
