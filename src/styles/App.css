@@ -40,11 +40,9 @@ h1 a:hover {
 
 .content {
   padding: 5%;
-  margin: 5%;
   max-width: 85%;
   background-color: rgb(255, 255, 255, 0.7);
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.6);
@@ -56,38 +54,52 @@ h1 a:hover {
 .artist-container {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
+
 }
 
 .artist-container img {
   margin-top: 5%;
-  max-width: 85%;
+  max-width: 100%;
   height: auto;
   box-shadow: 3px 2px 6px rgba(0, 0, 0, 0.4);
+  transition: 0.4s;
+  border-radius: 5px;
+}
+
+.artist-container img:hover {
+  transform: scale(1.12);
 }
 
 /* Artist Navigation */
 
+.artist-links {
+}
+
+.artist-container h2 {
+}
 
 .artist-links ul {
   display: flex;
-  font-size: 1em;
+  flex-direction: row;
+  position: relative;
   margin: auto;
-  padding-right: 5%;
+  align-items: center;
+  justify-content: center;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 0;
 }
 
 .artist-links ul li {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   text-align: center;
   list-style: none;
   transition: 0.4s;
   margin-right: 10px;
 }
 
+.artist-links ul li:last-child {
+  margin-right: 0;
+}
 
 
 .artist-links ul li:hover {
