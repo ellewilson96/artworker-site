@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 import '../styles/NavBar.css';
-import logo from '../logo.jpg';
+import logo from '../logo-cutout.png';
 
 class NavBar extends Component {
 render() {
