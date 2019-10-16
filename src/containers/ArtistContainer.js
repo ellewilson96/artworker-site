@@ -21,7 +21,7 @@ class ArtistContainer extends Component {
                 <h2>A selection from our current artist roster</h2>
                 <ArtistNav />
                   <Switch>
-                    <Route path="/brandon" component={Brandon} />
+                    <Route path="/gwyneth" component={Gwyneth} />
                     <Route path="/chris" component={Chris} />
                     <Route path="/dina" component={Dina} />
                     <Route path="/heidi" component={Heidi} />
