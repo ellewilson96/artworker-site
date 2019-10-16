@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
-import Brandon from '../components/artists/Brandon.js';
+import Gwyneth from '../components/artists/Gwyneth.js';
 import Chris from '../components/artists/Chris.js';
 import Dina from '../components/artists/Dina.js';
 import Heidi from '../components/artists/Heidi.js';
