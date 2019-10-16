@@ -10,7 +10,7 @@ class ArtistNav extends Component {
             <nav>
             <div className="artist-links">
                <ul>
-                   <li><NavLink to="/brandon">Brandon Sines</NavLink></li>
+                   <li><NavLink to="/gwyneth">Gwyneth Leech </NavLink></li>
                    <li><NavLink to="/chris">Chris Rocket</NavLink></li>
                    <li><NavLink to="/dina">Dina Jordan</NavLink></li>
                    <li><NavLink to="/heidi">Heidi Hankaniemi</NavLink></li>
