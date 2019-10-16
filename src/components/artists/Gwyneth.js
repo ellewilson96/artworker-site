@@ -1,18 +1,18 @@
 import React, { Component } from 'react'
-import brandon from './images/brandon.jpg'
+import gwyneth from './images/gwyneth.jpg'
 
-class Brandon extends Component {
+class Gwyneth extends Component {
     componentDidMount() {
     }
     render() {
         return (
           <div className="artist-container">
             <div className="artist-name">
-              <img src={brandon} alt="brandon" />
+              <img src={gwyneth} alt="gwyneth" />
             </div>
           </div>
         )
     }
 }
 
-export default Brandon
+export default Gwyneth
